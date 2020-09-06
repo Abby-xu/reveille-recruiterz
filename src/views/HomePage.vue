@@ -1,7 +1,7 @@
 <!--
  * @Author: Rong
  * @Date: 2020-09-06 01:10:04
- * @LastEditTime: 2020-09-06 06:30:11
+ * @LastEditTime: 2020-09-06 06:37:14
  * @LastEditors: Please set LastEditors
  * @Description: 
  1. Check the website for dubbuging: https://vuetifyjs.com/zh-Hans/components/cards/
@@ -53,25 +53,7 @@
 // import MyProfile from './MyProfile.vue'
 import HomePage from './HomePage.vue'
 
-export default {
-    data: () => ({
-            csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
-            }),   
-    methods:{
-        logout:function(){
-            axios.post('logout').then(response => {
-                if (response.status === 302 || 401) {
-                console.log('logout')
-                }
-                else {
-                // throw error and go to catch block
-                }
-            }).catch(error => {
-
-            });
-        },
-    },
-}
+// need to implement
 </script>
 
 
