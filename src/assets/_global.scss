@@ -2,5 +2,25 @@
 @import url('stylesheet.css')
 
 // colors
-$primary: #800000;
-$
+$primary: #ffffff;
+$error: #cc5500;
+$success: #800000;
+$light: #B6CCD7 ;
+$soft: #C9B1C6;
+$medium: #14527C;
+
+// resets
+body{
+        margin: 0;
+        color: $primary;
+        background: #ffffff;
+}
+
+html{
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+}
+
+    *{
+        font-family: 'kayak_sansbold', 'kayak_sanslight', 'kayak_sansregular';
+    }
