@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-06 01:10:04
- * @LastEditTime: 2020-09-06 03:35:15
+ * @LastEditTime: 2020-09-06 03:56:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /reveille-recruiterz/src/views/Settings.vue
@@ -20,7 +20,7 @@
 
 <!-- comment contents here -->
 <script>
-import MyProfile from './MyProfile.vue'
+// import MyProfile from './MyProfile.vue'
 import HomePage from './HomePage.vue'
 
 export default {
