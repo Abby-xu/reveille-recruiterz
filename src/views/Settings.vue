@@ -1,7 +1,7 @@
 <!--
- * @Author: your name
+ * @Author: Rong
  * @Date: 2020-09-06 01:10:04
- * @LastEditTime: 2020-09-06 03:56:46
+ * @LastEditTime: 2020-09-06 06:24:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /reveille-recruiterz/src/views/Settings.vue
